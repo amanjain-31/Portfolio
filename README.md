@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Aman Jain — Developer Portfolio
 
-## Getting Started
+A modern, premium, and fully responsive developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. This portfolio showcases my projects, technical skills, achievements, and experience with a clean UI, smooth animations, and a futuristic dark theme.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+* Modern dark UI with glassmorphism
+* Fully responsive design
+* Smooth animations using Framer Motion
+* Interactive project showcase
+* Animated skills section
+* Resume download option
+* Contact form integration
+* SEO optimized
+* Fast loading performance
+* Clean and scalable code structure
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Tools & Technologies
+
+* Git & GitHub
+* VS Code
+* Docker
+* Postman
+
+---
+
+## 📂 Sections Included
+
+* Hero Section
+* About Me
+* Skills
+* Experience
+* Projects
+* Achievements
+* Contact
+* Footer
+
+---
+
+## 🚀 Projects Featured
+
+### 🍽️ EnjoyYourMeal
+
+A full-stack food ordering and meal recommendation platform built with React, Next.js, Django, and Tailwind CSS.
+
+### 🎥 RecordIt
+
+A screen recording and video-sharing platform with authentication, CDN streaming, and secure video uploads.
+
+### 🍳 Chefy
+
+A MERN-stack recipe-sharing platform with likes, comments, ratings, and authentication features.
+
+---
+
+## 🏆 Achievements
+
+* Solved 400+ DSA problems
+* Open Source Contributor at GSSoC’25
+* Top 5% in NPTEL Programming in Java
+* Mentored 40+ juniors in coding and DSA
+* Participated in multiple hackathons
+* Coordinator at Jazbaat Dramatics Society
+
+---
+
+## ⚡ Getting Started
+
+Clone the repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📬 Connect With Me
 
-To learn more about Next.js, take a look at the following resources:
+* GitHub
+* LinkedIn
+* Email
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌟 Inspiration
 
-## Deploy on Vercel
+This portfolio is designed to reflect creativity, clean engineering, modern UI/UX principles, and performance-focused development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+# Built with ❤️ by Aman Jain
