@@ -8,6 +8,16 @@ import Image from "next/image";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "Elite Estates",
+      description:
+        "A premium full-stack real estate platform featuring secure authentication, advanced property search with filters, interactive tour booking, and a sleek responsive dashboard.",
+      tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      github: "https://github.com/amanjain-31/Real-estate",
+      demo: "https://real-estate-ks46.onrender.com",
+      color: "from-indigo-500/20 to-purple-500/20",
+      image: "/real_estate.png",
+    },
+    {
       title: "EnjoyYourMeal",
       description:
         "Food Ordering & Meal Recommendation Platform featuring secure ordering, meal browsing, a robust cart system, and a highly responsive UI.",
@@ -26,16 +36,6 @@ export default function ProjectsSection() {
       demo: "https://expense-tracker-lac-mu.vercel.app/",
       color: "from-green-500/20 to-emerald-500/20",
       image: "/sunrise_ledger.png",
-    },
-    {
-      title: "RecordIt",
-      description:
-        "Screen Recording & Video Sharing Platform that includes user authentication, smooth video upload, CDN streaming, and bot protection.",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/amanjain-31/RecordIt",
-      demo: "#",
-      color: "from-blue-500/20 to-cyan-500/20",
-      image: "/record_it.png",
     },
   ];
 
