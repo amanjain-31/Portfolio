@@ -57,9 +57,9 @@ A modern, premium, and fully responsive developer portfolio built with Next.js, 
 
 A full-stack food ordering and meal recommendation platform built with React, Next.js, Django, and Tailwind CSS.
 
-### 🎥 RecordIt
+### 🏠 Elite Estates
 
-A screen recording and video-sharing platform with authentication, CDN streaming, and secure video uploads.
+A premium full-stack real estate platform featuring secure authentication, advanced property search with filters, interactive tour booking, and a sleek responsive dashboard.
 
 ### 🍳 Chefy
 
