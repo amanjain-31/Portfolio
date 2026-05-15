@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { Mail, ArrowRight, Download } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import ParticlesBackground from "./ParticlesBackground";
+import Typewriter from "typewriter-effect";
 
 export default function HeroSection() {
   const container = {
@@ -26,6 +28,7 @@ export default function HeroSection() {
       className="relative min-h-screen flex items-center justify-center pt-20 pb-32 overflow-hidden"
     >
       {/* Background Elements */}
+      <ParticlesBackground />
       <div className="glow-accent top-20 left-[10%] opacity-50" />
       <div className="glow-accent bottom-20 right-[10%] opacity-30" style={{ background: 'radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, rgba(0, 0, 0, 0) 70%)' }} />
 
@@ -44,16 +47,30 @@ export default function HeroSection() {
 
           <motion.h1
             variants={item}
-            className="text-5xl md:text-7xl font-bold tracking-tight mb-6"
+            className="text-5xl md:text-8xl font-bold tracking-tight mb-6"
           >
-            Hi, I&apos;m <span className="text-gradient">Aman Jain</span>
+            Hi, I&apos;m <span className="text-gradient font-script text-6xl md:text-9xl">Aman Jain</span>
           </motion.h1>
 
           <motion.h2
             variants={item}
-            className="text-xl md:text-3xl font-medium text-foreground/80 mb-6"
+            className="text-xl md:text-3xl font-medium text-foreground/80 mb-6 min-h-[1.5em]"
           >
-            Full Stack Developer | Open Source Contributor | Problem Solver
+            <Typewriter
+              options={{
+                strings: [
+                  "Full Stack Developer",
+                  "Open Source Contributor",
+                  "Problem Solver",
+                  "Next.js Enthusiast",
+                  "React Native Developer",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+                delay: 70,
+              }}
+            />
           </motion.h2>
 
           <motion.p

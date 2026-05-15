@@ -12,6 +12,7 @@
   --color-secondary-500: #0ea5e9;
 
   --font-sans: "Inter", var(--font-inter), sans-serif;
+  --font-script: var(--font-caveat), cursive;
 }
 
 /* Light mode base styles */
