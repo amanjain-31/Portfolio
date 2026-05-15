@@ -19,7 +19,7 @@ import {
   SiMongodb, 
   SiNextdotjs, 
   SiCplusplus,
-  SiWebsockets
+  SiSocketdotio
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 
@@ -38,7 +38,7 @@ const skills = [
   { name: "Python", icon: <FaPython className="text-blue-500" /> },
   { name: "C++", icon: <SiCplusplus className="text-blue-700" /> },
   { name: "Java", icon: <DiJava className="text-red-500" /> },
-  { name: "Web Sockets", icon: <SiWebsockets className="text-white" /> },
+  { name: "Web Sockets", icon: <SiSocketdotio className="text-white" /> },
   { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
   { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
 ];
