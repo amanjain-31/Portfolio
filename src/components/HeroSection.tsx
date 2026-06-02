@@ -107,7 +107,7 @@ export default function HeroSection() {
           >
             {[
               { icon: FaGithub, href: "https://github.com/amanjain-31" },
-              { icon: FaLinkedin, href: "https://linkedin.com/in/amanjain" },
+              { icon: FaLinkedin, href: "https://www.linkedin.com/in/aman-jain-248b612aa/" },
               { icon: Mail, href: "https://mail.google.com/mail/?view=cm&fs=1&to=amanjain310105@gmail.com" },
             ].map((social, index) => (
               <a
