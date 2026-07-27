@@ -49,7 +49,7 @@ export default function HeroSection() {
             variants={item}
             className="text-5xl md:text-8xl font-bold tracking-tight mb-6"
           >
-            Hi, I&apos;m <span className="text-gradient font-script text-6xl md:text-9xl">Aman Jain</span>
+            Hi, I&apos;m <span className="text-gradient">Aman Jain</span>
           </motion.h1>
 
           <motion.h2
