@@ -8,6 +8,16 @@ import Image from "next/image";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "HireAI",
+      description:
+        "An AI-powered mock interview platform that conducts realistic technical and behavioral interviews, offers real-time voice/text interaction, and provides automated evaluation with detailed performance feedback.",
+      tags: ["Next.js", "React", "Tailwind CSS", "Gemini AI", "TypeScript"],
+      github: "https://github.com/amanjain-31/AI-Interview",
+      demo: "https://ai-interview-frontend-alpha-vert.vercel.app/",
+      color: "from-cyan-500/20 to-blue-500/20",
+      image: "/ai_interview.png",
+    },
+    {
       title: "Elite Estates",
       description:
         "A premium full-stack real estate platform featuring secure authentication, advanced property search with filters, interactive tour booking, and a sleek responsive dashboard.",
@@ -26,16 +36,6 @@ export default function ProjectsSection() {
       demo: "https://enjoyyourmeal.onrender.com/",
       color: "from-orange-500/20 to-red-500/20",
       image: "/enjoy_your_meal.png",
-    },
-    {
-      title: "Sunrise Ledger (Expense Tracker)",
-      description:
-        "A full-stack multi-user expense tracking platform featuring secure JWT authentication, granular date-based filtering, data isolation, and a responsive glassmorphism dark-mode dashboard.",
-      tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-      github: "https://github.com/amanjain-31/ExpenseTracker",
-      demo: "https://expense-tracker-lac-mu.vercel.app/",
-      color: "from-green-500/20 to-emerald-500/20",
-      image: "/sunrise_ledger.png",
     },
   ];
 
