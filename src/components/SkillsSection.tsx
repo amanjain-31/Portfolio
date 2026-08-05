@@ -9,7 +9,6 @@ import {
   FaNodeJs, 
   FaPython, 
   FaGitAlt, 
-  FaBootstrap,
   FaDatabase
 } from "react-icons/fa";
 import { 
@@ -18,29 +17,26 @@ import {
   SiExpress, 
   SiMongodb, 
   SiNextdotjs, 
-  SiCplusplus,
-  SiSocketdotio
+  SiCplusplus
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 
 const skills = [
-  { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
-  { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
-  { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
-  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
-  { name: "React JS", icon: <FaReact className="text-cyan-400" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
-  { name: "Node JS", icon: <FaNodeJs className="text-green-500" /> },
-  { name: "Express JS", icon: <SiExpress className="text-gray-400" /> },
-  { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-[#E34F26]" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-[#1572B6]" /> },
+  { name: "JavaScript", icon: <FaJsSquare className="text-[#F7DF1E]" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
+  { name: "React JS", icon: <FaReact className="text-[#61DAFB]" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+  { name: "Node JS", icon: <FaNodeJs className="text-[#339933]" /> },
+  { name: "Express JS", icon: <SiExpress className="text-white" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
   { name: "Next JS", icon: <SiNextdotjs className="text-white" /> },
-  { name: "SQL", icon: <FaDatabase className="text-blue-400" /> },
-  { name: "Python", icon: <FaPython className="text-blue-500" /> },
-  { name: "C++", icon: <SiCplusplus className="text-blue-700" /> },
-  { name: "Java", icon: <DiJava className="text-red-500" /> },
-  { name: "Web Sockets", icon: <SiSocketdotio className="text-white" /> },
-  { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
-  { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
+  { name: "SQL", icon: <FaDatabase className="text-[#4479A1]" /> },
+  { name: "Python", icon: <FaPython className="text-[#3776AB]" /> },
+  { name: "C++", icon: <SiCplusplus className="text-[#00599C]" /> },
+  { name: "Java", icon: <DiJava className="text-[#ED8B00]" /> },
+  { name: "Git", icon: <FaGitAlt className="text-[#F05032]" /> },
 ];
 
 export default function SkillsSection() {
@@ -78,10 +74,10 @@ export default function SkillsSection() {
               whileHover={{ scale: 1.1, rotate: 5 }}
               className="flex flex-col items-center gap-4 group"
             >
-              <div className="text-6xl md:text-7xl transition-all duration-300 filter grayscale group-hover:grayscale-0 drop-shadow-[0_0_8px_rgba(255,255,255,0.1)] group-hover:drop-shadow-[0_0_15px_rgba(139,92,246,0.5)]">
+              <div className="text-6xl md:text-7xl transition-all duration-300 drop-shadow-[0_0_10px_rgba(255,255,255,0.15)] group-hover:drop-shadow-[0_0_20px_rgba(139,92,246,0.6)]">
                 {skill.icon}
               </div>
-              <span className="text-lg font-medium text-foreground/70 group-hover:text-white transition-colors">
+              <span className="text-lg font-medium text-foreground/80 group-hover:text-white transition-colors">
                 {skill.name}
               </span>
             </motion.div>
@@ -91,3 +87,4 @@ export default function SkillsSection() {
     </section>
   );
 }
+
