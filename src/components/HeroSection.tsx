@@ -92,7 +92,7 @@ export default function HeroSection() {
               View Projects <ArrowRight size={18} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1CqqRfhoaMTKRZCU8Zs0XpETaUkK7iKy1/view?usp=sharing"
+              href="https://drive.google.com/file/d/101h3RmqVX-iZIbaX77fm__rCRUZOrTFP/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full glass hover:bg-black/5 dark:hover:bg-white/5 font-medium flex items-center gap-2 transition-all hover:scale-105 text-foreground"
